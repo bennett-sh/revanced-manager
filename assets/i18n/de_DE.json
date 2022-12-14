@@ -1,6 +1,7 @@
 {
     "okButton": "OK",
     "cancelButton": "Abbrechen",
+    "updateButton": "Aktualisieren",
     "enabledLabel": "Aktiviert",
     "disabledLabel": "Deaktiviert",
     "yesButton": "Ja",
@@ -21,7 +22,7 @@
         "noInstallations": "Keine gepatchten Apps installiert",
         "installed": "Installiert",
         "updateDialogTitle": "Manager aktualisieren",
-        "updateDialogText": "Bist du sicher, dass du den ReVanced Manager herunterladen und aktualisieren möchtest?",
+        "updateChangelogTitle": "Änderungsverlauf",
         "notificationTitle": "Update heruntergeladen",
         "notificationText": "Tippen um Update zu installieren",
         "downloadingMessage": "Aktualisierung wird heruntergeladen...",
@@ -81,13 +82,13 @@
         "all": "Alle",
         "none": "Keine",
         "loadPatchesSelection": "Patchauswahl laden",
-        "noSavedPatches": "Keine gespeicherten Patches für die ausgewählte App\nDrücken Sie Fertig, um die aktuelle Auswahl zu speichern",
+        "noSavedPatches": "Keine gespeicherten Patches für die ausgewählte App. Drücke „Fertig” zum Speichern der aktuellen Auswahl.",
         "noPatchesFound": "Keine Patches für die ausgewählte App gefunden",
         "selectAllPatchesWarningContent": "Du bist dabei alle Patches auszuwählen, dies beinhaltet nicht empfohlene Patches und kann zu unerwünschtem Verhalten führen."
     },
     "patchItem": {
         "unsupportedDialogText": "Die Auswahl dieses Patches kann zu Fehlern beim Patchen führen.\n\nApp-Version: {packageVersion}\nUnterstützte Versionen:\n{supportedVersions}",
-        "unsupportedPatchVersion": "Patch wird für diese App-Version nicht unterstützt. Aktiviere das experimentelle Feature in den Einstellungen, um fortzufahren."
+        "unsupportedPatchVersion": "Der Patch unterstützt diese Version der App nicht. Aktiviere in den Einstellungen die experimentellen Funktionen, um fortzufahren."
     },
     "installerView": {
         "widgetTitle": "Installer",
@@ -121,6 +122,7 @@
         "englishOption": "Englisch",
         "sourcesLabel": "Quellen",
         "sourcesLabelHint": "Konfiguriere deine eigenen Quellen",
+        "hostRepositoryLabel": "Repository-API",
         "orgPatchesLabel": "Patches Organisation",
         "sourcesPatchesLabel": "Quelle für Patche",
         "orgIntegrationsLabel": "Integrationen Organisation",
